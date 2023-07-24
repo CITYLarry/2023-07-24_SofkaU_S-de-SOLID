@@ -20,12 +20,12 @@ public class Main {
         usuarios.crearUsuario(usuario);
         usuarios.crearUsuario(usuario2);
 
-        //Usuario obtener = usuarios.obtenerUsuario("openbootcamp2");
-        //System.out.println(obtener.email);
+        Usuario obtener = usuarios.obtenerUsuario("testUsuario");
+        System.out.println(obtener.getEmail());
 
         //usuarios.borrarUsuario("testUsuario");
-       /* for (Usuario a : usuarios.listarUsuarios()) {
+        for (Usuario a : usuarios.listarUsuarios()) {
             System.out.println(a.getNombreUsuario());
-        }*/
+        }
     }
 }
